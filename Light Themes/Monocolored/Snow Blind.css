@@ -1304,6 +1304,21 @@ ytmusic-player-page
         --paper-button-ink-color: rgba(0, 0, 0, 0.1) !important
     }
 
+    ytmusic-tabs.stuck
+    {
+        background-color: #ffffff !important;
+    }
+
+    ytmusic-background-promo-renderer[renderer-style=full-height] .promo-title.ytmusic-background-promo-renderer:not([hidden]), ytmusic-background-promo-renderer[renderer-style=adaptive-full-height] .promo-title.ytmusic-background-promo-renderer:not([hidden])
+    {
+        color: #1a1a1a !important;
+    }
+
+    ytmusic-background-promo-renderer
+    {
+        background-color: #ffffff !important;
+    }
+
     /* REMOVE THIS LINE IF YOU WANT TO APPLY FONTS (Also replace FontName with a font you want to use (ex. HarmonyOS Sans)
 
     *
